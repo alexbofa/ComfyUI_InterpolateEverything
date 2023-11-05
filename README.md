@@ -12,15 +12,15 @@ Future features:
 
 To install:
 
-**First, install https://github.com/Fannovel16/comfy_controlnet_preprocessors** if you haven't already:
+**First, install [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux)** if you haven't already:
 ```sh
 cd <ComfyUI installation directory>/custom_nodes
-git clone https://github.com/Fannovel16/comfy_controlnet_preprocessors
-cd comfy_controlnet_preprocessors
+git clone https://github.com/Fannovel16/comfyui_controlnet_aux
+cd comfyui_controlnet_aux
 ./install
 ```
 
-Most of InterpolateEverything's (current) functionality depends on `comfy_controlnet_preprocessors`, and InterpolateEverything *should* fail to load if it's not installed.  
+Most of InterpolateEverything's (current) functionality depends on `comfyui_controlnet_aux`, and InterpolateEverything *should* fail to load if it's not installed.  
 
 Next, install this repo in `custom_nodes` as well:
 
